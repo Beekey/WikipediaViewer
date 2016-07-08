@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid text-center center-block">
+  <div id="box">
+    <div id="pageTitle">Wikipedia Viewer</div>
+    <div class="row">
+      <div id="randomBox" class="col-xs-6">
+        <div id="random">
+          <!-- Cinema penguin by  Moini ( https://openclipart.org/user-detail/Moini ) -->
+          <img class="img-responsive" src="http://res.cloudinary.com/beekey/image/upload/v1467283889/randomPenguin_rsqhr5.png" alt="Random Penguin">
+          <!-- this text is functionally a button -->
+          <p id="randomButton">Random</p>
+        </div>
+      </div>
+      <div id="searchBox" class="col-xs-6">
+        <div id="search">
+          <!-- Sleuth penguin by  Moini ( https://openclipart.org/user-detail/Moini ) -->
+          <img class="img-responsive" src="http://res.cloudinary.com/beekey/image/upload/v1467283889/searchPenguin_wkaqqa.png" alt="Search Peanguin">
+          <!-- this text is functionally a button -->
+          <p id="searchButton">I'm done!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="searchForm" class="col-xs-12">
+        <!-- wrapper bundles together the search bar and submit button -->
+        <div id="wrapper" class="animated fadeIn">
+          <form><label class="sr-only" for="inputString">Search</label><input id="inputString" type="text" placeholder="Find..."><button type="submit"><i class="fa fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- container to hold search results -->
+  <div id="resultsBox" class="row">
+    <div id="results" class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+    </div>
+  </div>
+</div>
+</div>
+<!-- greyed out bottom of page to hold creator's signature -->
+<div class="row center-block text-center" id="codedBy">
+  <footer>Designed and coded by <a href="https://www.freecodecamp.com/beekey" target="_blank">BeeKey</a>.</footer>
+</div>
+
+<div id="test"></div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

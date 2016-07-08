@@ -1,0 +1,164 @@
+body {
+  min-width: 320px;
+  background: #F5F5FA;
+  font-family: 'Roboto', sans-serif;
+  color: #868686;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Patua One', cursive;
+  font-size: 21px;
+  color: #8E8EC6;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: inline;
+}
+
+p:hover {
+  color: #48488E;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+#pageTitle {
+  font-size: 7vw;
+  padding-bottom: 2vh;
+  font-family: 'Patua One', cursive;
+  color: #8E8EC6;
+  transition: all 1.2s ease-out;
+}
+
+a {
+  color: #8E8EC6;
+  text-decoration: none;
+  font-size: 31px;
+  line-height: 0.7;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #6C6CB5;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 20px white inset !important;
+  -webkit-text-fill-color: #48488E;
+}
+
+#inputString {
+  width: 235px;
+  outline: none;
+  padding: 4px 7px;
+  border: 0;
+  vertical-align: middle;
+  border-radius: 10px 0 0 10px;
+  border-top: 2px solid #C7C7E2;
+  border-left: 2px solid #C7C7E2;
+  border-bottom: 2px solid #C7C7E2;
+  color: #48488E;
+  height: 36px;
+}
+
+button {
+  height: 36px;
+  vertical-align: middle;
+  border: 0;
+  padding: 4px 5px;
+  margin: 0;
+  background: white;
+  color: #D6D6EB;
+  outline: 0;
+  border-radius: 0 10px 10px 0;
+  border-top: 2px solid #C7C7E2;
+  border-right: 2px solid #C7C7E2;
+  border-bottom: 2px solid #C7C7E2;
+}
+
+button:hover {
+  color: #9999CC;
+}
+
+#wrapper {
+  display: inline-block;
+  background: #EBEBF5;
+  border-radius: 10px;
+  margin: 10px 2px;
+  box-shadow: 0px 0px 10px 0 #9999CC inset;
+  border: 1px solid #A8A8A8;
+  font-size: 17px;
+}
+
+#box {
+  position: relative;
+  transition: all 1.5s ease-out;
+  margin-top: 5vh;
+  display: inline-block;
+}
+
+img {
+  transition: all 1.5s ease-out;
+  display: block;
+  margin: 5px auto;
+}
+
+#searchBox {
+  margin-left: auto;
+}
+
+#randomBox {
+  margin-right: auto;
+}
+
+#random {
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 1.5s ease-out;
+}
+
+#search {
+  transition: all 1.5s ease-out;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#searchForm {
+  display: inline;
+}
+
+form {
+  margin: 7px;
+}
+
+#results {
+  padding-top: 28vh;
+  transition: all 1s ease-in;
+}
+
+.title {
+  margin: 4px 0;
+}
+
+.result {
+  margin-bottom: 25px;
+}
+
+#codedBy {
+  position: fixed;
+  bottom: 0px;
+  display: inline;
+  background: #ccc;
+  width: 100%;
+  padding: 2px 0;
+  margin 1px auto;
+}
+
+footer {
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+footer a {
+  font-size: 14px;
+}
